@@ -1,7 +1,7 @@
 # WTF Resume (Resume Builder)
+# Modified by Sekhar!!
 
 Modern real-time design and 100% free resume builder.
-### [https://wtfresume.com](https://wtfresume.com "wtfresume")
 
 
 ### Simple demo: 
@@ -9,20 +9,9 @@ Modern real-time design and 100% free resume builder.
 ![demo](https://user-images.githubusercontent.com/33284430/86123944-eab5b500-bb0c-11ea-9e6f-f3d156f2eb41.gif)
 
 
-### Features:
-- Real time design (drag and drop)
-- Build your resume without registration
-- Save as json file and upload and use in future
-- Export as PDF (selectable text)
-
-
 ### Run Development Mode
 This resume builder created by `React` and `Next js`
     
-```
-yarn dev
-```
-or
 ```
 npm run dev
 ```
@@ -40,10 +29,6 @@ npm run dev
     │   ├── theme               # general stylys, ...
     │   └── types               # type for typescript
     └── ...
-
-
-
-#### [Go to WTFresume website](https://wtfresume.com "wtfresume")
 
 
 ### Contributing

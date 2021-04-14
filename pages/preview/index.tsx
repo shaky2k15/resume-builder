@@ -7,7 +7,6 @@ import { One } from '@template';
 
 import { Util } from '@lib';
 import { APIConfig } from '@constant';
-import Router from 'next/router';
 
 import { importUserData, exportUserData } from '../../src/redux/core/actions';
 import { Loading } from '@component';
@@ -87,21 +86,10 @@ class Home extends React.Component<TProps, TState> {
                         <>
                             <div className={styles.bgLayer} />
 
-                            <div className={styles.topNav}>
-                                <div className={styles.left}>
-                                    <i className="material-icons" onClick={() => Router.back()}>
-                                        keyboard_backspace
-                                    </i>
-                                </div>
-
-                                <div className={['verticalCenter', styles.right].join(' ')}>
-                                    <span onClick={this._downloadPDFBtnPress}>Download as PDF</span>
-                                </div>
-                            </div>
                         </>
                     )}
 
-                    <div className={[styles.container, this.state.exportStatus !== 'true' && styles.previewContainer].join(' ')}>
+                    <div>
                         <One />
                     </div>
 
